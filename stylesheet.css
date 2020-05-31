@@ -1,0 +1,101 @@
+/*General styles for the whole page*/
+body {
+	font-family: 'Pangolin', cursive;
+	background-color: #fff5f4;
+}
+
+/**content background-color: #01e4e1;**/
+/*HEADER AND NAVBAR STYLES*/
+#header-nav {
+	background-color: #b45918;/*#d7120f*/
+	border-radius: 0;
+	border: 0;
+	border-bottom: 1px solid black;
+}
+/*Brand*/
+.navbar-brand {
+	height: 85px;
+	padding: 20px;
+}
+.navbar-brand h1 {
+	font-family: 'Acme', sans-serif;
+	color: #f5c18a; /**#fa8005**/
+	font-size: 3em;
+	text-shadow: .5px .5px .5px #777;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	line-height: .75;
+}
+.navbar-brand a:link, .navbar-brand a:visited {
+	text-decoration: none;
+}
+/*Butoons*/
+#nav-list {
+	margin-top:15px;
+}
+#nav-list a {
+	color: #f3b572;
+	font-size: 1.7em;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #f2f2f2;
+	color: chocolate;
+	
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #e6e6e6;
+}
+
+/*CONTENT*/
+/*Our menu text style*/
+h2 {
+	margin-bottom: 30px;
+}
+/*Food content styles*/
+.food-div {
+	width: 100%;
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 1px 1px 1px 1px #e6e6e6;
+	background-color: #f7cda1;
+}
+.food-title {
+	font-size: 1.7em;
+}
+.food-content {
+	padding: 10px;
+	text-indent: 10px;
+	font-size: 1em;
+}
+
+/**LARGE DEVICES STYLES**/
+@media (min-width: 1200px){
+
+}
+
+/**MEDIUM DEVICES STYLES**/
+@media (min-width: 99px) and (max-width: 1199px){
+
+}
+
+/**SMALL DEVICES STYLES**/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+/*EXTRA SMALL DEVICES STYLES*/
+@media (max-width: 767px){
+	.navbar-brand {
+		padding-top: 15px;
+		height: 75px;
+	}
+	.navbar-brand h1 {
+		font-size: 9vw;
+	}
+	#collapsable-nav a {
+		font-size: 2em;
+	}
+}
